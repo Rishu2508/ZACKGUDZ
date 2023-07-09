@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+.links ul li {padding: 1rem;}
+
+.social-links {display: none;}
+
+.main-page {height: 110vh;}
+
+.slider-section {padding: 5rem 1rem 0 1rem;}
+
+.features-container {flex-direction: column;}
+
+.features-container .text-content {text-align: center;margin: 0;padding: 1rem;}
+
+.features-container > div {width: 100%;}
+
+.product-section {height: 108vh;/* padding: 13rem 2rem 10rem 2rem; */}
+
+.image-section {margin: 0;width: 100%;text-align: center;}
+
+.image-with-caption .image img {width: 130%;}
+
+.features-container .text-content h1 {font-size: 10vw;margin: auto;}
+
+.slider-section:before {height: 105%;}
+
+.image-bg-text .word {left: -11%;height: 120px;}
+
+.image-section .image-bg-text .word .face {font-size: 30vw;font-family: 'Jomhuria', cursive;}
+
+.categories {padding: 0 1rem;flex-direction: column;align-items: center;}
+
+.category {width: 100%;height: 50vw;}
+
+.category h1 {font-size: 2.5rem;/* font-weight: 200; */}
+
+.about-section {padding: 5rem 1rem;flex-direction: column-reverse;}
+
+.about-section > div {width: 100%;}
+
+.about-section .about-img .images {height: calc(var(--w) * 0.56);border-radius: inherit;/* height: auto; */}
+
+.about-section .text-content {padding: 0;}
+
+img.OR-code {display: none;}
+
+.contact-section {padding: 1rem;}
+
+.contact-section .text-content {width: 100%;}
+
+.contact-section .text-content h1 {font-size: 10vw;}
+
+.roles label .box {width: 44vw;padding: 0.5rem 2.5rem;gap: 0;}
+
+.input-area form .roles {flex-wrap: wrap;justify-content: center;gap: 8px;}
+
+.input-area form input:not([type="submit"]), textarea {width: 100%;}
+
+.input-area form input[type="submit"] {padding: 0.5rem 2rem;font-family: 'FontAwesome';font-size: 1rem;}
+
+.country {border: 1px solid;border-radius: 8px;width: max-content;padding: 0.7rem 1rem;display: none;}
+
+footer .footer-container {flex-direction: column;padding: 1rem 1.5rem;font-size: 4vw;gap: 0.5rem;}
+
+.text .tag-line {font-size: 1.4rem;}
+
+.text img.brand-name {width: 90%;}
+
+nav {flex-direction: column;padding: 0.3rem 1rem;}
+
+.nav-brand {justify-content: space-between;}
+
+.links ul {flex-direction: column;}
+
+.links {height: 0;overflow: hidden;}
+
+.features {flex-grow: 0;}
+
+.feature {width: 100%;flex-direction: row;padding: 1rem;/* justify-content: space-between; */align-items: flex-start;}
+
+.fname {font-size: 1.4rem;font-weight: 500;padding:  1rem;margin: 0 auto;}
+
+.product-section h2 {font-size: 2.1rem;}
+
+.product-section .text-content p {font-weight: 400;font-size: 1.3rem;}
+
+.about-section .about-img .image-slide img {height: 100%;}
+
+.about-section .heading.phone{display: initial;text-align: center;}
+
+.about-section .heading{display: none;}
+
+section.full-section.slider-section {height: auto;}
+
+.footer-social-links{display: flex;flex-direction: column;padding-bottom: 1rem;}
+.footer-social-links .follow-us{text-align: center;padding: 0.5rem;padding-bottom: 1rem;font-size: 1.4rem;}
+.footer-social-links .icons{display: flex;justify-content: space-around;font-size: 1rem;}
+
+.link i {font-size: 1.5rem;}
+
+.country span {margin-inline: 0.5rem;}
+
+.text img.logo {width: 30%;}
+
+.about-section .text-content p {font-size: 1.05rem;}
